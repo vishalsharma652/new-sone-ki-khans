@@ -4,6 +4,8 @@ import Homefour from "../components/Homefour";
 import Products from "../components/Products";
 import Slider from "../components/Slider";
 import Three from "../components/Three";
+import Silderimages from "../components/Silderimages";
+
 
 
 const Home = () => {
@@ -11,9 +13,10 @@ const Home = () => {
         <>
       <Header/>
       <Slider/>
-      <Three/>
-      <Homefour/>
+      {/* <Silderimages/> */}
       <Products/>
+      <Homefour/>
+      <Three/>
       <Footer/>
       </>
     );
