@@ -172,4 +172,316 @@
       border-radius: 30px;
       overflow: hidden;
   }
-  
+  .arrival-bg-color{
+    background-color:#f5f5df
+    ;
+  }
+  .footer-text-color{
+    color: #676666;
+    color: #0a303a;
+  }
+  .list-unstyled a:hover{
+    color: #af4f37;
+    text-decoration: wavy;
+  }
+  a{
+    text-decoration: wavy !important;
+  }
+  @media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1230px !important;
+    }
+}
+@media (max-width: 992px) {
+  .slider_sectionpadding{
+    padding: 90px 0 75px 0 !important;
+    }
+    .header-logo-width {
+      max-width: 60%;
+    }
+}
+
+.slider_sectionpadding{
+  padding: 90px 0 320px 0 ;
+  }
+
+.sticky-menu {
+  left: 0;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background: #fff;
+  -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  border-radius: 0;
+}
+.menu-area {
+  position: relative;
+  z-index: 9;
+}
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  transition: all 0.3s ease-in-out;
+}
+.bg-white {
+  background-color: #fff;
+}
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+  background: #782f29;
+  color: #fff;
+  text-align: center;
+  line-height: 31px;
+  font-size: 18px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+.footer-contact {
+  display: flex !important;
+  align-items: flex-start !important;
+  margin: 30px 0 32px !important;
+}
+.footer-number-font-size{
+  font-size: 24px;
+  font-weight: 600;
+  color: #0a303a;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #0a303a;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: inherit;
+}
+.span {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #af4f37;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #676666;
+  font-style: normal;
+}
+/* Improve layout and icon styling */
+.why_section .box {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.why_section .box:hover {
+  transform: translateY(-10px);
+}
+
+.why_section .box .img-box {
+  margin-bottom: 20px;
+}
+
+.why_section .box .detail-box {
+  padding: 10px 20px;
+}
+
+.why_section .box h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.why_section .box p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.read-more img {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.read-more:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.text-color{
+color: #000;
+}
+
+
+
+
+
+
+
+/* Sticky Header */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hamburger icon animation */
+.navbar-toggler-icon {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-toggler-icon.open {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler-icon.open::before {
+  transform: rotate(-90deg);
+  top: 0;
+}
+
+.navbar-toggler-icon.open::after {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+/* Full-Screen Mobile Menu */
+/* Ensure mobile menu has the proper layout */
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.mobile-menu-overlay.show {
+  display: flex;
+}
+
+.mobile-menu {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+ 
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  transition: transform 0.3s ease-in-out;
+  padding-left: 30px;
+}
+
+.mobile-menu.show {
+  transform: translateX(0);
+}
+
+/* Mobile logo in menu */
+.mobile-menu-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mobile-logo {
+  width: 150px;
+  height: auto;
+}
+
+/* Close menu button */
+.close-menu {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #333;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* Mobile nav items */
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px 20px;
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-link:hover {
+  background-color: #f0f0f0;
+}
+
+/* Search Button */
+.nav_search-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+/* Ensure navbar has correct spacing on mobile */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .mobile-menu-overlay {
+    display: none; /* Hide overlay on desktop */
+  }
+}
+

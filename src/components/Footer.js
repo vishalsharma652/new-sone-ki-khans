@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 function Footer() {
   return (
     <>
-      <div className="bg-dark text-white py-5">
+      <div className="pt-5 arrival-bg-color ">
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-md-3">
@@ -26,26 +30,17 @@ function Footer() {
               <h5 className="fw-bold">Useful Links</h5>
               <ul className="list-unstyled">
                 <li>
-                  <Link
-                    to="/"
-                    className="text-white hover:text-red-500"
-                  >
+                  <Link to="/" className="footer-text-color">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/categories"
-                    className="text-white hover:text-red-500"
-                  >
+                  <Link to="/categories" className="footer-text-color">
                     Categories
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/contacts"
-                    className="text-white hover:text-red-500"
-                  >
+                  <Link to="/contacts" className="footer-text-color">
                     Contact Us
                   </Link>
                 </li>
@@ -57,9 +52,9 @@ function Footer() {
                 <li>
                   <a
                     href="https://www.instagram.com/sone_ki_khan_jaipur/profilecard/?igsh=MXRsZjB1NGZnbmxxOA=="
-                    className="text-white hover:text-red-500"
+                    className="footer-text-color"
                   >
-                    <i className="fab fa-instagram" /> Instagram
+                   <FaInstagram /> Instagram
                   </a>
                 </li>
                 <li>
@@ -67,44 +62,51 @@ function Footer() {
                     href="https://wa.me/9920165523"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white hover:text-red-500"
+                    className="footer-text-color"
                   >
-                    <i className="fab fa-whatsapp" /> Whatsapp
+                   <IoLogoWhatsapp /> Whatsapp
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-md-3">
               <h5 className="fw-bold">Address</h5>
-              <div className="d-flex align-items-center mb-2">
-                <i className="fas fa-map-marker-alt" />
+              <div className="d-flex mb-2 list-unstyled footer-contact">
+                <div className="icon">
+                  <FaLocationDot />
+                </div>
                 <a
                   href="https://maps.app.goo.gl/q3dx7aekmUQuSpM9A"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white ms-2 hover:text-red-500"
+                  className="footer-text-color ms-2"
                   aria-label="Shop Location"
                 >
                   Shop no.157, Patrakar Rd, Mahima Nagar, Khejdo Ka Vas,
                   Mansarovar, Jaipur, Rajasthan 302020
                 </a>
               </div>
-              <div className="d-flex align-items-center">
-                <i className="fas fa-headphones" />
-                <a
+              <div className="d-flex  list-unstyled footer-contact">
+                <div className="icon">
+                  <FaPhone />
+                </div>
+                <h2>
+                <a 
                   href="tel:9920165523"
-                  className="text-white ms-2 hover:text-red-500"
+                  className="footer-text-color footer-number-font-size"
                   aria-label="Call Now"
                 >
                   +91 9920165523
                 </a>
+                <spen className="span">Call Now</spen>
+                </h2>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-dark text-center py-3">
-        <span className="text-white">
+      <div className="text-center py-3 arrival-bg-color">
+        <span className="footer-text-color">
           Copyright © Sone Ki Khan Jaipur. All Rights Reserved.
         </span>
       </div>
