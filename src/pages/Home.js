@@ -4,7 +4,7 @@ import Homefour from "../components/Homefour";
 import Products from "../components/Products";
 import Slider from "../components/Slider";
 import Three from "../components/Three";
-import Silderimages from "../components/Silderimages";
+
 
 
 
@@ -13,7 +13,6 @@ const Home = () => {
         <>
       <Header/>
       <Slider/>
-      {/* <Silderimages/> */}
       <Products/>
       <Homefour/>
       <Three/>
