@@ -5,10 +5,10 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function Three() {
   return (
-    <section className="why_section layout_padding">
+    <section className="why_section layout_padding Slider-padding-top Slider-padding-bottom">
       <div className="container">
         <div className="heading_container heading_center">
-          <h2>Why Shop With Us</h2>
+          <h2 className="font-size">Why Shop With Us</h2>
         </div>
         <div className="row">
           {/* Shop on Amazon */}

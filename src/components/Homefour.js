@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Homefour() {
+function Adoption() {
   return (
-    <section className="arrival_section">
+    <section className="adoption-area adoption-area-padding">
       <div className="container">
-        <div className="box">
-          <div className="arrival_bg_box">
-            <img src="image/shop-img.jpg" alt="" />
+        <div className="row align-items-center align-items-xl-end justify-content-center">
+          <div className="col-xl-7 col-lg-6 col-md-10 order-0 order-lg-2">
+            <div className="adoption-img">
+              <img src="image/shop-img.jpg" alt=""  className="image-width"/>
+            </div>
           </div>
-          <div className="row">
-            <div className="col-md-6 ml-auto">
-              <div className="heading_container remove_line_bt">
-                <h2>
-                  Who <span>we</span> are ?
-                </h2>
-              </div>
-              <p style={{ marginTop: 20, marginBottom: 30 }}>
+          <div className="col-xl-5 col-lg-6">
+            <div className="adoption-content">
+              <h2 className="title adoption-font-weight">
+                Who <span>we</span> are ?
+              </h2>
+              <p className="text-justify">
                 Welcome to Shree Ram Imitation, where elegance meets
                 craftsmanship. Discover our exquisite collection of fine
                 jewelry, ranging from timeless gold and diamond pieces to
@@ -25,14 +26,22 @@ function Homefour() {
                 you're looking for a statement piece or a meaningful gift, our
                 jewelry embodies quality and artistry that will be cherished for
                 generations. Step into a world of beauty and elegance with Shree
-                Ram Imitation
+                Ram Imitation.
               </p>
+              <Link
+                to="/about-us"
+                aria-label=""
+                className="btn main-slider-font-weight"
+              >
+                Explore Now{" "}
+              </Link>
             </div>
           </div>
         </div>
       </div>
+      
     </section>
   );
 }
 
-export default Homefour;
+export default Adoption;
