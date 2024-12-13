@@ -16,8 +16,8 @@ function Productscategories() {
           
           {[
             "compressed_home-image-1.jpg",
-            "compressed_home-image-2.jpg",
-            "compressed_home-image-3.jpg",
+           "home-image-111.jpg",
+            
             "compressed_home-image-4.jpg",
             "home-image-2.jpg",
             "home-image-3.jpg",
@@ -34,8 +34,8 @@ function Productscategories() {
             "home-image-19.jpg",
             "home-image-25.jpg",
             "home-image-26.jpg",
-            "home-image-27.jpg",
-            "home-image-111.jpg",
+            // "home-image-27.jpg",
+            
           ].map((image, index) => (
             <div key={index} className="col-sm-6 col-md-4 col-lg-4 mb-4">
               <div className="product-box">

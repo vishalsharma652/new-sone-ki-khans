@@ -7,9 +7,9 @@ function Manproducts() {
       <div className="row">
         {[
           "compressed_home-image-1.jpg",
-          "compressed_home-image-2.jpg",
-          "compressed_home-image-3.jpg",
-          "compressed_home-image-4.jpg",
+          // "compressed_home-image-2.jpg",
+          // "compressed_home-image-3.jpg",
+          // "compressed_home-image-4.jpg",
           "home-image-2.jpg",
           "home-image-3.jpg",
           "home-image-6.jpg",
