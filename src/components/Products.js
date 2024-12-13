@@ -3,10 +3,10 @@ import React from "react";
 
 function Products() {
   return (
-    <section className="product_section layout_padding">
+    <section className="product_section layout_padding Slider-padding-top Slider-padding-bottom">
       <div className="container">
         <div className="heading_container heading_center">
-          <h2>
+          <h2 className="font-size">
             Our <span>products</span>
           </h2>
         </div>

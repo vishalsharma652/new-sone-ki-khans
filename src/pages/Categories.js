@@ -1,7 +1,9 @@
+import FistSlider from "../components/FistSlider";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Productscategories from "../components/Productscategories";
-import Slider from "../components/Slider";
+import ShowCaseSlider from "../components/ShowCaseSlider";
+
 
 
 
@@ -9,8 +11,9 @@ const Home = () => {
     return (
         <>
       <Header/>
-      <Slider/>
+      <FistSlider/>
       <Productscategories/>
+      <ShowCaseSlider/>
       <Footer/>
       </>
     );

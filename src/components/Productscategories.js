@@ -2,9 +2,18 @@ import React from "react";
 
 function Productscategories() {
   return (
-    <section className="product_section layout_padding">
+    <section className="Slider-padding-top Slider-padding-bottom">
       <div className="container">
         <div className="row">
+        <div className="heading_container heading_center pt-pb-conter">
+            <h2 className="font-size">Explore Our <span>Exquisite Jewelry Range</span></h2>
+            <p>
+              Discover our stunning range of jewelry, from timeless classics to
+              contemporary designs. Explore our collections to adorn yourself
+              with elegance, sophistication, and unmatched craftsmanship.
+            </p>
+          </div>
+          
           {[
             "compressed_home-image-1.jpg",
             "compressed_home-image-2.jpg",

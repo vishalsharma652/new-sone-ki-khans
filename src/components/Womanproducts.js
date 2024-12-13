@@ -2,7 +2,7 @@ import React from 'react'
 
 function Womanproducts() {
   return (
-    <section className="product_section layout_padding">
+    <section className="Slider-padding-top Slider-padding-bottom">
     <div className="container">
       <div className="row">
         {[
