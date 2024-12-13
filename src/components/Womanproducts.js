@@ -6,7 +6,7 @@ function Womanproducts() {
     <div className="container">
       <div className="row">
         {[
-          "image-woham.jpeg",
+          // "image-woham.jpeg",
           "image12.jpg",
           "imagewoman-4.jpg",
         //   "imagewoman-5.jpg",
@@ -26,7 +26,7 @@ function Womanproducts() {
           "image-3.jpg",
           "home-image-25.jpg",
           "home-image-26.jpg",
-        //   "home-image-27.jpg",
+          "home-image-27.jpg",
         ].map((image, index) => (
           <div key={index} className="col-sm-6 col-md-4 col-lg-4 mb-4">
             <div className="product-box">
