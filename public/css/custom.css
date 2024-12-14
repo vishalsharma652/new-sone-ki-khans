@@ -788,3 +788,10 @@ p {
 padding-top: 10px;
 padding-bottom: 50px;
 }
+.social-mida-icons {
+  
+  border-radius: 3px;
+  color: #82074a;
+ 
+  margin-right: 12px;
+}

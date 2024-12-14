@@ -54,7 +54,7 @@ function Footer() {
                     href="https://www.instagram.com/sone_ki_khan_jaipur/profilecard/?igsh=MXRsZjB1NGZnbmxxOA=="
                     className="footer-text-color"
                   >
-                   <FaInstagram /> Instagram
+                    <FaInstagram className="social-mida-icons" /> Instagram
                   </a>
                 </li>
                 <li>
@@ -64,7 +64,7 @@ function Footer() {
                     rel="noopener noreferrer"
                     className="footer-text-color"
                   >
-                   <IoLogoWhatsapp /> Whatsapp
+                    <IoLogoWhatsapp className="social-mida-icons" /> Whatsapp
                   </a>
                 </li>
               </ul>
@@ -91,14 +91,14 @@ function Footer() {
                   <FaPhone />
                 </div>
                 <h2>
-                <a 
-                  href="tel:9920165523"
-                  className="footer-text-color footer-number-font-size"
-                  aria-label="Call Now"
-                >
-                  +91 9920165523
-                </a>
-                <spen className="span">Call Now</spen>
+                  <a
+                    href="tel:9920165523"
+                    className="footer-text-color footer-number-font-size"
+                    aria-label="Call Now"
+                  >
+                    +91 9920165523
+                  </a>
+                  <spen className="span">Call Now</spen>
                 </h2>
               </div>
             </div>
