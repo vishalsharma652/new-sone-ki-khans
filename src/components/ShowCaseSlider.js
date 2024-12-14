@@ -38,20 +38,21 @@ function ShowCaseSlider() {
         <div className="row">
           <div className="col-lg-12">
             <div className="section-title text-center mb-65">
-              <h1 className="sub-title main-slider-font-weight">
+              <h2 className="sub-title main-slider-font-weight">
                 Our Services
-              </h1>
+              </h2>
               <h2 className="title font-size main-slider-font-weight">
                 Custom Jewelry Creations
               </h2>
-              <p className="text-justify">
+              <p className="  ">
                 At Shone Ki Khan Jaipur, we specialize in crafting bespoke
-                jewelry pieces tailored to your personal style and preferences.
-                Whether you're designing a custom engagement ring or a unique
-                gift, our team is dedicated to bringing your vision to life. We
-                offer personalized consultations, expert craftsmanship, and a
-                seamless experience from concept to creation. Let us help you
-                design a piece that is as unique as you are.
+                jewelry pieces tailored to <br className=" br" />
+                your personal style and preferences. Whether you're designing a
+                custom engagement
+                <br className=" br" /> ring or a unique gift, our team is
+                dedicated to bringing your vision to life. We offer personalized
+                <br className=" br" /> consultations, expert craftsmanship, and
+                a seamless experience from concept to creation.
               </p>
             </div>
           </div>

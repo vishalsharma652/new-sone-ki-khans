@@ -8,6 +8,7 @@ import Products from "../components/Products";
 import ShowCaseSlider from "../components/ShowCaseSlider";
 
 import Three from "../components/Three";
+import Headertow from '../components/Headertow';
 
 const Home = () => {
   useEffect(() => {
@@ -16,13 +17,14 @@ const Home = () => {
   }, []);
   return (
     <>
-      <Header />
+     <Header/>
       <FistSlider />
 
       {/* <BigSilder/> */}
-      <Products />
+     
       <Homefour />
       <ShowCaseSlider />
+      <Products />
       <Three />
       <Footer />
     </>
