@@ -52,6 +52,7 @@ function Footer() {
                 <li>
                   <a
                     href="https://www.instagram.com/sone_ki_khan_jaipur/profilecard/?igsh=MXRsZjB1NGZnbmxxOA=="
+                     target="_blank"
                     className="footer-text-color"
                   >
                     <FaInstagram className="social-mida-icons" /> Instagram

@@ -6,7 +6,7 @@ import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { FaInstagram } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 
-function Header() {
+function Headertow() {
   const location = useLocation();
   const { pathname } = location;
   const splitLocation = pathname.split("/");
@@ -90,8 +90,9 @@ function Header() {
                     <a
                       href="https://www.instagram.com/sone_ki_khan_jaipur/profilecard/?igsh=MXRsZjB1NGZnbmxxOA=="
                       aria-label="instagram"
+                      
                     >
-                      <FaInstagram className="fint-size-icon" />
+                      <FaInstagram  className="fint-size-icon"/>
                     </a>
                   </li>
                   <li className="fontsize-ion">
@@ -100,7 +101,7 @@ function Header() {
                       target="blanck"
                       aria-label="number"
                     >
-                      <IoLogoWhatsapp className="fint-size-icon" />
+                      <IoLogoWhatsapp className="fint-size-icon"/>
                     </a>
                   </li>
                 </ul>
@@ -213,4 +214,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Headertow;

@@ -64,12 +64,12 @@ h2 {
     display: block;
     width: 70px;
     height: 5px;
-    background: #f7444e;
+    background: #bc3e35;
     margin: 10px auto 10px;
 }
 
 .heading_container h2 span {
-  color: #f7444e;
+  color: #bc3e35;
 }
 
 .heading_container p {

@@ -5,19 +5,23 @@ function Productscategories() {
     <section className="Slider-padding-top Slider-padding-bottom">
       <div className="container">
         <div className="row">
-        <div className="heading_container heading_center pt-pb-conter">
-            <h2 className="font-size">Explore Our <span>Exquisite Jewelry Range</span></h2>
+          <div className="heading_container heading_center pt-pb-conter">
+            <h2 className="font-size">
+              Explore Our <span>Exquisite Jewelry Range</span>
+            </h2>
             <p>
               Discover our stunning range of jewelry, from timeless classics to
-              contemporary designs. Explore our collections to adorn yourself
-              with elegance, sophistication, and unmatched craftsmanship.
+              contemporary designs. Explore our collections to{" "}
+              <br className=" br" />
+              adorn yourself with elegance, sophistication, and unmatched
+              craftsmanship.
             </p>
           </div>
-          
+
           {[
             "compressed_home-image-1.jpg",
-           "home-image-111.jpg",
-            
+            "home-image-111.jpg",
+
             "compressed_home-image-4.jpg",
             "home-image-2.jpg",
             "home-image-3.jpg",
@@ -35,7 +39,6 @@ function Productscategories() {
             "home-image-25.jpg",
             "home-image-26.jpg",
             // "home-image-27.jpg",
-            
           ].map((image, index) => (
             <div key={index} className="col-sm-6 col-md-4 col-lg-4 mb-4">
               <div className="product-box">

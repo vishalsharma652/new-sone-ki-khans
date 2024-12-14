@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function Adoption() {
   return (
-    <section className="adoption-area adoption-area-padding">
+    <section className="adoption-area adoption-area-padding Slider-padding-bottom Slider-padding-top ">
       <div className="container">
         <div className="row align-items-center align-items-xl-end justify-content-center">
-          <div className="col-xl-7 col-lg-6 col-md-10 order-0 order-lg-2">
+          <div className="col-lg-6 col-md-10 order-0 order-lg-2">
             <div className="adoption-img">
               <img src="image/shop-img.jpg" alt=""  className="image-width"/>
             </div>
@@ -29,11 +29,11 @@ function Adoption() {
                 Ram Imitation.
               </p>
               <Link
-                to="/about-us"
+                to="tel:9920165523"
                 aria-label=""
                 className="btn main-slider-font-weight"
               >
-                Explore Now{" "}
+                CALL NOW{" "}
               </Link>
             </div>
           </div>
