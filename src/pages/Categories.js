@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import FistSlider from "../components/FistSlider";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -8,6 +9,10 @@ import ShowCaseSlider from "../components/ShowCaseSlider";
 
 
 const Home = () => {
+   useEffect(() => {
+        document.title =
+          "Sone Ki Khan Jaipur";
+      }, []);
     return (
         <>
       <Header/>
