@@ -73,7 +73,7 @@ function Footer() {
             <div className="col-md-3">
               <h5 className="fw-bold">Address</h5>
               <div className="d-flex mb-2 list-unstyled footer-contact">
-                <div className="icon">
+                <div className="icon-footer">
                   <FaLocationDot />
                 </div>
                 <a
@@ -88,7 +88,7 @@ function Footer() {
                 </a>
               </div>
               <div className="d-flex  list-unstyled footer-contact">
-                <div className="icon">
+                <div className="icon-footer">
                   <FaPhone />
                 </div>
                 <h2>
