@@ -20,13 +20,13 @@ function Manproducts() {
         </div>
         <div className="row">
           {[
-            "compressed_home-image-1.jpg",
+            "naw-compressed_home-image-1.jpg",
             // "compressed_home-image-2.jpg",
             // "compressed_home-image-3.jpg",
             // "compressed_home-image-4.jpg",
             "new-home-image-2.jpg",
             "new-home-image-3.jpg",
-            "home-image-6.jpg",
+            "home-new-home-6.jpg",
             "home-image-7.jpeg",
             "home-image-9.jpeg",
             "home-image-10.jpeg",
