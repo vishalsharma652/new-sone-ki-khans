@@ -1,115 +1,115 @@
+import {
+  faEnvelope,
+  faLocationDot,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 function Contactsinpages() {
   return (
     <>
-      <section className="contact_us">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-10 offset-md-1">
-              <div className="contact_inner">
-                <div className="row">
-                  <div className="col-md-10">
-                    <div className="contact_form_inner">
-                      <div className="contact_field">
-                        <h3>Contatc Us</h3>
-                        <p>
-                          Feel Free to contact us any time. We will get back to
-                          you as soon as we can!.
-                        </p>
-                        <input
-                          type="text"
-                          className="form-control form-group"
-                          placeholder="Name"
-                        />
-                        <input
-                          type="text"
-                          className="form-control form-group"
-                          placeholder="Email"
-                        />
-                        <textarea
-                          className="form-control form-group"
-                          placeholder="Message"
-                          defaultValue={""}
-                        />
-                        <button className="contact_form_submit">Send</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-2">
-                    <div className="right_conatct_social_icon d-flex align-items-end">
-                      <div className="socil_item_inner d-flex">
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-square" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-instagram" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                      </div>
-                    </div>
+      <div>
+        <section className="banner-main-con about-page-main-banner-con Slider-padding-top Slider-padding-bottom">
+          <div className="container">
+            <div className="banner-con about-page-banner-con text-center">
+              <div className="row wow slide-in-left slideInLeft">
+                <div className="col-lg-12">
+                  <div className="about-page-banner-title">
+                    <h1>Contact Us</h1>
+                    <p className="mb-0 color-black-p">
+                      We would love to hear from you! Whether you’re interested
+                      in our exquisite jewelery collections or have a question
+                      <br />
+                      about a custom design, feel free to give us a call or
+                      visit us anytime. We strive to respond to all inquiries
+                      <br />
+                      within 24 business hours.
+                    </p>
                   </div>
                 </div>
-                <div className="contact_info_sec">
-                  <h4>Contact Info</h4>
-                  <div className="d-flex info_single align-items-center">
-                    <i className="fas fa-headset" />
-                    <span>+91 8009 054294</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-6">
+              <div>
+                <div
+                  className="appie-single-service-2 item-4 mt-30 wow animated fadeInUp box-margin-right-contacts-pg box-icon-margin-top-0px appie-single-service-2-addres contes-margin-top"
+                  data-wow-duration="2000ms"
+                  data-wow-delay="200ms"
+                >
+                  <a
+                    href="https://maps.app.goo.gl/q3dx7aekmUQuSpM9A"
+                    target="_blank"
+                    className="icon"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLocationDot}
+                      className="icon-size-30"
+                    />
+                  </a>
+                  <h1 className="title">OFFICE ADDRESS: </h1>
+                  <p className="text-align-justify text-align-center">
+                    Shop no.157, Patrakar Rd, Mahima Nagar, Khejdo Ka Vas,
+                    Mansarovar, Jaipur, Rajasthan 302020
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 container overlay-content pt-70">
+              <div className="row">
+                <div className="col-lg-5 col-md-12">
+                  <div
+                    className="appie-single-service-2 item-6 mt-30 wow animated fadeInUp tb-g box-icon-margin-top-0px contes-margin-top"
+                    data-wow-duration="2000ms"
+                    data-wow-delay="400ms"
+                  >
+                    <a
+                      href="tel:9920165523"
+                      aria-label="number"
+                      className="icon"
+                    >
+                      <FontAwesomeIcon
+                        icon={faPhone}
+                        className="rotate-custom icon-size-30"
+                      />
+                    </a>
+                    <h1 className="title">CALL US ON</h1>
+                    <p className="text-align-justify text-align-center">
+                      +91 9920165523
+                    </p>
                   </div>
-                  <div className="d-flex info_single align-items-center">
-                    <i className="fas fa-envelope-open-text" />
-                    <span>info@flightmantra.com</span>
-                  </div>
-                  <div className="d-flex info_single align-items-center">
-                    <i className="fas fa-map-marked-alt" />
-                    <span>
-                      1000+ Travel partners and 65+ Service city across India,
-                      USA, Canada &amp; UAE
-                    </span>
+                </div>
+                <div className="col-md-12 col-lg-7">
+                  <div
+                    className="appie-single-service-2 appie-single-service-2-mail item-5 mt-30 wow animated fadeInUp box-padding-bottom-contacts-pg box-icon-margin-top-0px contes-margin-top"
+                    data-wow-duration="2000ms"
+                    data-wow-delay="400ms"
+                  >
+                    <a
+                      href="mailto:R.k.choudhary5523@gmail.com"
+                      aria-label="text"
+                      className="icon"
+                    >
+                      <FontAwesomeIcon
+                        icon={faEnvelope}
+                        className="icon-size-30"
+                      />
+                    </a>
+                    <h1 className="title">MAIL US</h1>
+                    <p className="text-align-justify text-align-center">
+                      R.k.choudhary5523@gmail.com{" "}
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section className="map_sec">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-10 offset-md-1">
-              <div className="map_inner">
-                <h4>Find Us on Google Map</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Tempore quo beatae quasi assumenda, expedita aliquam minima
-                  tenetur maiores neque incidunt repellat aut voluptas hic
-                  dolorem sequi ab porro, quia error.
-                </p>
-                <div className="map_bind">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5631094339!2d88.04952462217592!3d22.6757520733225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1596988408134!5m2!1sen!2sin"
-                    width="100%"
-                    height={450}
-                    frameBorder={0}
-                    style={{ border: 0 }}
-                    allowFullScreen=""
-                    aria-hidden="false"
-                    tabIndex={0}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </>
   );
 }
