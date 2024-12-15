@@ -21,10 +21,9 @@ function Productscategories() {
           {[
             "compressed_home-image-1.jpg",
             "home-image-111.jpg",
-
-            "compressed_home-image-4.jpg",
-            "home-image-2.jpg",
-            "home-image-3.jpg",
+            "compressed_home-image-new-4.jpg",
+            "new-home-image-2.jpg",
+            "new-home-image-3.jpg",
             "home-image-6.jpg",
             "home-image-7.jpeg",
             "home-image-9.jpeg",
