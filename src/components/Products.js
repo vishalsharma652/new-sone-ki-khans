@@ -11,7 +11,7 @@ function Products() {
           </h2>
         </div>
         <div className="row">
-          {["home-image-9.jpeg", "home-image-6.jpg","home-image-7.jpeg","compressed_home-image-4.jpg", "home-image-2.jpg", "home-image-3.jpg"].map((image, index) => (
+          {["home-image-9.jpeg", "home-new-home-6.jpg","home-image-7.jpeg","compressed_home-image-4.jpg", "home-image-2.jpg", "home-image-3.jpg"].map((image, index) => (
             <div key={index} className="col-sm-6 col-md-4 col-lg-4 mb-4">
               <div className="product-box">
                 <div className="img-box">
