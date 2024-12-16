@@ -96,7 +96,7 @@ function Header() {
                   </li>
                   <li className="fontsize-ion">
                     <a
-                      href="https://wa.me/9920165532"
+                      href="https://wa.me/9920165523"
                       target="blanck"
                       aria-label="number"
                     >
