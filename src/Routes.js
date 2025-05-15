@@ -1,10 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Categories from './pages/Categories';
-import Man from './pages/Man';
-import Woman from './pages/Woman';
-import Contacts from './pages/Contacts';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Categories from "./pages/Categories";
+import Man from "./pages/Man";
+import Woman from "./pages/Woman";
+import Contacts from "./pages/Contacts";
 
 function App() {
   return (
