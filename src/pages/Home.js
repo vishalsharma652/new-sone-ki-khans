@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import BigSilder from "../components/BigSilder";
 import FistSlider from "../components/FistSlider";
 import Footer from "../components/Footer";
@@ -8,19 +8,14 @@ import Products from "../components/Products";
 import ShowCaseSlider from "../components/ShowCaseSlider";
 import Three from "../components/Three";
 
-
 const Home = () => {
   useEffect(() => {
-    document.title =
-      "Sone Ki Khan Jaipur";
+    document.title = "Sone Ki Khan Jaipur";
   }, []);
   return (
     <>
-     <Header/>
+      <Header />
       <FistSlider />
-
-      {/* <BigSilder/> */}
-     
       <Homefour />
       <ShowCaseSlider />
       <Products />
